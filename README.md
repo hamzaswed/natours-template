@@ -5,7 +5,7 @@
 
   <h2 align="center">Natours Template Project</h2>
 
-  Fully responsive Web Tamplate, built using HTML, Sass.
+  Fully responsive Tamplate, built using HTML, Sass.
 
   <a href="https://hamzaswed.github.io/natours-template/"><strong>➥ Live Demo</strong></a>
 
