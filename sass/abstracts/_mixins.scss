@@ -1,0 +1,84 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// hyperlink buttons common style
+@mixin hyperlinkBtn {
+  text-decoration: none;
+  display: inline-block;
+  font-size: $fs-default;
+}
+
+// add background gradient and clip it with the text
+@mixin bgTextGradient {
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+// MEDIA QUERY MANAGER
+/*
+  0 - 600px:        Phone
+  600px - 900px:    Tabelt portrait
+  900px -1200px:    Tablet landscape
+  1200px - 1800px:  Normal desktop
+  1800px + :        Big desktop
+
+
+
+  $brackpoint argument choices
+
+  - phone
+  - tab-port
+  - tab-land
+  - big-desktop
+
+
+  1em = 16px
+
+  Order to change
+  Base + Typography > General layout + Grid > Page layout > Components
+*/
+
+@mixin respond($brackpoint) {
+  // phone
+  @if $brackpoint == phone {
+    // 600px
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+
+  // Tablet portrait
+  @if $brackpoint == tab-port {
+    // 900px
+    @media (max-width: 56.25em) {
+      @content;
+    }
+  }
+
+  // Tablet landscape
+  @if $brackpoint == tab-land {
+    // 1200px
+    @media (max-width: 75em) {
+      @content;
+    }
+  }
+
+  // Big desktop
+  @if $brackpoint == big-desktop {
+    // 1800px
+    @media (min-width: 112.5em) {
+      @content;
+    }
+  }
+}
