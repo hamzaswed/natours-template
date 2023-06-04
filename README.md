@@ -21,9 +21,9 @@
 
 If you want to contact me, you can reach me at [My Email](hamzaswed66@gmail.com).
 
-### License
+### Screenshot
 
-This project is free to use and does not contain any specific license.
+![image](https://github.com/hamzaswed/natours-template/assets/81015655/5a291098-d9a2-40ec-8b1e-986397457483)
 
 ---
 
@@ -51,13 +51,5 @@ This is a simple HTML and CSS template that showcases various features, includin
 
 3. Customize the template by modifying the HTML and CSS files to fit your needs. Feel free to add additional features or styles as desired.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the template as long as you include the original license file.
-
-## Credits
-
-- The template design and CSS techniques were inspired by various online resources and tutorials. Acknowledgments to the authors and contributors of those resources.
-
-- The content and images used in the template are for demonstration purposes only. Make sure to replace them with your own content when using the template in a production environment.
 
