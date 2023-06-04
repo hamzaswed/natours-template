@@ -5,7 +5,7 @@
 
   <h2 align="center">Natours Template Project</h2>
 
-  Fully responsive Tamplate, built using HTML, Sass.
+  Fully responsive Template, built using HTML and Sass.
 
   <a href="https://hamzaswed.github.io/natours-template/"><strong>➥ Live Demo</strong></a>
 
@@ -17,11 +17,47 @@
 
 - [@hamzaswed](https://github.com/hamzaswed)
 
-
 ### Contact
 
-If you want to contact with me you can reach me at [My Email](hamzaswed66@gmail.com).
+If you want to contact me, you can reach me at [My Email](hamzaswed66@gmail.com).
 
 ### License
 
-This project is **free to use** and does not contains any license.
+This project is free to use and does not contain any specific license.
+
+---
+
+# HTML and CSS Template
+
+This is a simple HTML and CSS template that showcases various features, including Sass, semantic HTML, responsive design, animations, and a CSS-controlled menu opening and closing without JavaScript.
+
+## Features
+
+- **Sass**: The template utilizes Sass (Syntactically Awesome Style Sheets) to enhance the CSS workflow, allowing for better organization and modularity of styles.
+
+- **Semantic HTML**: The HTML structure follows semantic conventions, making the code more meaningful and improving accessibility and search engine optimization.
+
+- **Responsive Design**: The template is designed to be responsive and adapt to different screen sizes and devices, ensuring a consistent user experience across platforms.
+
+- **Animation**: The template includes CSS animations to add dynamic visual effects, providing an engaging and interactive user interface.
+
+- **CSS-Controlled Menu**: The menu in this template is implemented using only CSS, without requiring JavaScript. It demonstrates how CSS can be used to create interactive elements, such as dropdown menus, without relying on scripting.
+
+## Usage
+
+1. Clone the repository: 'git clone https://github.com/your-username/html-css-template.git'
+
+2. Open the `index.html` file in your preferred web browser.
+
+3. Customize the template by modifying the HTML and CSS files to fit your needs. Feel free to add additional features or styles as desired.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the template as long as you include the original license file.
+
+## Credits
+
+- The template design and CSS techniques were inspired by various online resources and tutorials. Acknowledgments to the authors and contributors of those resources.
+
+- The content and images used in the template are for demonstration purposes only. Make sure to replace them with your own content when using the template in a production environment.
+
