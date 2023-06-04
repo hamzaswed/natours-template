@@ -45,7 +45,7 @@ This is a simple HTML and CSS template that showcases various features, includin
 
 ## Usage
 
-1. Clone the repository: 'git clone https://github.com/your-username/html-css-template.git'
+1. Clone the repository: `git clone https://github.com/your-username/html-css-template.git`
 
 2. Open the `index.html` file in your preferred web browser.
 
